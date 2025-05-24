@@ -1,0 +1,17 @@
+<section class="services" id="services">
+  <div class="section-title" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <p>We offer scalable, secure, and high-performance digital solutions.</p>
+  </div>
+
+  <!-- Cards Grid -->
+  <div class="services-grid">
+    <div class="service-card" *ngFor="let service of services" data-aos="zoom-in">
+      <div class="icon">{{ service.icon }}</div>
+      <h3>{{ service.title }}</h3>
+      <p>{{ service.description }}</p>
+    </div>
+  </div>
+</section>
+
+
